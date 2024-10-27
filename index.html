@@ -467,17 +467,19 @@
         <div class="send-form-container">
           <p class="send-form-title">Subscribe</p>
           <form class="send-form" name="send-form-email" autocomplete="off">
-            <label class="send-form-label" for="footer-email"></label>
             <div class="send-form-input-container">
+              <label class="send-form-label" for="footer-email"></label>
               <input
                 class="send-form-input"
                 type="email"
+                name="email-field"
                 id="footer-email"
                 placeholder="E-mail"
+                required
               />
               <button class="send-form-button" type="submit">
                 Subscribe
-                <svg class="send-form-icon" width="24" height="20">
+                <svg class="send-form-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>

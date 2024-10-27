@@ -506,6 +506,7 @@ img {
 .send-form {
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 .send-form-title {
@@ -515,6 +516,14 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+}
+
+.send-form-label {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 8px;
 }
 
 .send-form-input-container {
@@ -533,10 +542,14 @@ img {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
-    padding: 7px 16px;
-    color: currentColor;
+    padding-left: 16px;
+    color: #ffffff;
     background-color: transparent;
     transition: border-color cubic-bezier(0.4, 0, 0.2, 1), outline cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-form-input::placeholder {
+    color: #ffffff;
 }
 
 .send-form-input:focus {
