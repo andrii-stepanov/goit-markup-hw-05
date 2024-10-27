@@ -516,6 +516,7 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    padding-left: 16px;
 }
 
 .send-form-label {
@@ -541,7 +542,6 @@ img {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
     padding-left: 16px;
     color: #ffffff;
     background-color: transparent;
@@ -568,12 +568,14 @@ img {
     width: 165px;
     height: 40px;
     background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #fff;
+    color: #ffffff;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: none;
 }
@@ -584,6 +586,7 @@ img {
 }
 
 .send-form-icon {
+    margin-left: 16px;
     fill: #fff;
 }
 
